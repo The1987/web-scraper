@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Scraping With Mongoose</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: linear-gradient(to bottom, rgba(244, 57, 10, .6), rgba(250,60,182, .6), rgba(236,114,245, .8), rgba(228,98,153, .1)), url('black.jpg');
+      /* background-color: #F2F6D0; */
+      margin: 0;
+    }
+
+    #wrapper {
+      /* width: 80%; */
+      margin-top: 120px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 5%;
+    }
+
+    #articles {
+      /* display: inline-block; */
+      overflow: scroll;
+      width: 80%;
+      margin: auto;
+      /* height: 700px; */
+      color: black;
+      background-color: white;
+      opacity: 0.8;
+      padding: 10px;
+      /* border: 1px solid black; */
+    }
+
+    #notes {
+      float: right;
+      width: 30%;
+    }
+
+    textarea,
+    input {
+      display: block;
+      width: 100%;
+      /* background-color: #FCF5C7; */
+    }
+
+    input {
+      height: 36px;
+      font-size: 24px;
+    }
+
+    textarea {
+      height: 200px;
+      font-size: 18px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="articles">      
+      <h1>web scraping</h1>
+    </div>
+    <div id="notes"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
